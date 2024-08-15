@@ -1,13 +1,18 @@
 <template>
   <div>
-    Catalogue Products
+    <!-- <PreLoader /> -->
+    <Header />
+    <Hero />
+    <SectionFavorite />
+    <Hero2 />
+    <ListProductList/>
+    <Footer />
   </div>
 </template>
 
 <script lang="ts" setup>
-
 useHead({
-  title: "Catalogue.com",
+  title: "catalogue",
   meta: [
     { name: "description", content: "Products Catalogue Website." }
   ],
